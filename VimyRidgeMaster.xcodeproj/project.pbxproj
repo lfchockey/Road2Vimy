@@ -7,12 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F10C32CE1B8E546200B879E0 /* FriendsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10C32CD1B8E546200B879E0 /* FriendsView.swift */; };
 		F1267D191B4EB27400B7671E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D181B4EB27400B7671E /* AppDelegate.swift */; };
-		F1267D1B1B4EB27400B7671E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D1A1B4EB27400B7671E /* ViewController.swift */; };
+		F1267D1B1B4EB27400B7671E /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D1A1B4EB27400B7671E /* HomeViewController.swift */; };
 		F1267D1E1B4EB27400B7671E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1267D1C1B4EB27400B7671E /* Main.storyboard */; };
 		F1267D201B4EB27400B7671E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1267D1F1B4EB27400B7671E /* Images.xcassets */; };
 		F1267D231B4EB27400B7671E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1267D211B4EB27400B7671E /* LaunchScreen.xib */; };
 		F1267D2F1B4EB27400B7671E /* VimyRidgeMasterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D2E1B4EB27400B7671E /* VimyRidgeMasterTests.swift */; };
+		F1267D3C1B4EBD2900B7671E /* ResultSorter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D391B4EBD2900B7671E /* ResultSorter.swift */; };
+		F1267D3D1B4EBD2900B7671E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D3A1B4EBD2900B7671E /* ResultsViewController.swift */; };
+		F1267D3E1B4EBD2900B7671E /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D3B1B4EBD2900B7671E /* SearchViewController.swift */; };
+		F1267D401B4EBD8300B7671E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D3F1B4EBD8300B7671E /* SwiftyJSON.swift */; };
+		F1267D441B4EC15D00B7671E /* WeaponSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D421B4EC15D00B7671E /* WeaponSelectViewController.swift */; };
+		F1267D451B4EC15D00B7671E /* weaponDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D431B4EC15D00B7671E /* weaponDetailsViewController.swift */; };
+		F1267D471B4ED53A00B7671E /* FullSoldier.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D461B4ED53A00B7671E /* FullSoldier.swift */; };
+		F1267D521B4EDA7500B7671E /* FaceBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D511B4EDA7500B7671E /* FaceBookViewController.swift */; };
+		F1267D541B4EDA9400B7671E /* Medals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D531B4EDA9400B7671E /* Medals.swift */; };
+		F1267D581B4EDAB200B7671E /* SoldierLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D551B4EDAB200B7671E /* SoldierLocation.swift */; };
+		F1267D591B4EDAB200B7671E /* TimelineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D561B4EDAB200B7671E /* TimelineView.swift */; };
+		F1267D5A1B4EDAB200B7671E /* VCMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D571B4EDAB200B7671E /* VCMapView.swift */; };
+		F1267D5C1B4EDACB00B7671E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D5B1B4EDACB00B7671E /* ProfileView.swift */; };
+		F1267D5E1B4EDAD800B7671E /* BiographyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1267D5D1B4EDAD800B7671E /* BiographyView.swift */; };
+		F1A5743C1B8FD28E0025A7AF /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A5743B1B8FD28E0025A7AF /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +42,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F10C32CD1B8E546200B879E0 /* FriendsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FriendsView.swift; sourceTree = "<group>"; };
 		F1267D131B4EB27400B7671E /* VimyRidgeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VimyRidgeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1267D171B4EB27400B7671E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1267D181B4EB27400B7671E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1267D1A1B4EB27400B7671E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1267D1A1B4EB27400B7671E /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		F1267D1D1B4EB27400B7671E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1267D1F1B4EB27400B7671E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F1267D221B4EB27400B7671E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F1267D281B4EB27400B7671E /* VimyRidgeMasterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VimyRidgeMasterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1267D2D1B4EB27400B7671E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1267D2E1B4EB27400B7671E /* VimyRidgeMasterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VimyRidgeMasterTests.swift; sourceTree = "<group>"; };
+		F1267D391B4EBD2900B7671E /* ResultSorter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultSorter.swift; sourceTree = "<group>"; };
+		F1267D3A1B4EBD2900B7671E /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		F1267D3B1B4EBD2900B7671E /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F1267D3F1B4EBD8300B7671E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F1267D421B4EC15D00B7671E /* WeaponSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeaponSelectViewController.swift; sourceTree = "<group>"; };
+		F1267D431B4EC15D00B7671E /* weaponDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = weaponDetailsViewController.swift; sourceTree = "<group>"; };
+		F1267D461B4ED53A00B7671E /* FullSoldier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FullSoldier.swift; sourceTree = "<group>"; };
+		F1267D511B4EDA7500B7671E /* FaceBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceBookViewController.swift; sourceTree = "<group>"; };
+		F1267D531B4EDA9400B7671E /* Medals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Medals.swift; sourceTree = "<group>"; };
+		F1267D551B4EDAB200B7671E /* SoldierLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoldierLocation.swift; sourceTree = "<group>"; };
+		F1267D561B4EDAB200B7671E /* TimelineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineView.swift; sourceTree = "<group>"; };
+		F1267D571B4EDAB200B7671E /* VCMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCMapView.swift; sourceTree = "<group>"; };
+		F1267D5B1B4EDACB00B7671E /* ProfileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F1267D5D1B4EDAD800B7671E /* BiographyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BiographyView.swift; sourceTree = "<group>"; };
+		F1A5743B1B8FD28E0025A7AF /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +110,15 @@
 			isa = PBXGroup;
 			children = (
 				F1267D181B4EB27400B7671E /* AppDelegate.swift */,
-				F1267D1A1B4EB27400B7671E /* ViewController.swift */,
 				F1267D1C1B4EB27400B7671E /* Main.storyboard */,
+				F1267D1A1B4EB27400B7671E /* HomeViewController.swift */,
+				F1267D481B4ED9C300B7671E /* FaceBook */,
+				F1267D381B4EBBBE00B7671E /* Search */,
+				F1267D411B4EC13F00B7671E /* Weapons */,
+				F1267D3F1B4EBD8300B7671E /* SwiftyJSON.swift */,
+				F1267D461B4ED53A00B7671E /* FullSoldier.swift */,
 				F1267D1F1B4EB27400B7671E /* Images.xcassets */,
+				F1A5743B1B8FD28E0025A7AF /* art.scnassets */,
 				F1267D211B4EB27400B7671E /* LaunchScreen.xib */,
 				F1267D161B4EB27400B7671E /* Supporting Files */,
 			);
@@ -110,6 +148,96 @@
 				F1267D2D1B4EB27400B7671E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1267D381B4EBBBE00B7671E /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D391B4EBD2900B7671E /* ResultSorter.swift */,
+				F1267D3A1B4EBD2900B7671E /* ResultsViewController.swift */,
+				F1267D3B1B4EBD2900B7671E /* SearchViewController.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		F1267D411B4EC13F00B7671E /* Weapons */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D421B4EC15D00B7671E /* WeaponSelectViewController.swift */,
+				F1267D431B4EC15D00B7671E /* weaponDetailsViewController.swift */,
+			);
+			name = Weapons;
+			sourceTree = "<group>";
+		};
+		F1267D481B4ED9C300B7671E /* FaceBook */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D511B4EDA7500B7671E /* FaceBookViewController.swift */,
+				F1267D491B4ED9F900B7671E /* Containers */,
+			);
+			name = FaceBook;
+			sourceTree = "<group>";
+		};
+		F1267D491B4ED9F900B7671E /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D4A1B4EDA0300B7671E /* Biography */,
+				F1267D4C1B4EDA1800B7671E /* Friends */,
+				F1267D501B4EDA4700B7671E /* Medals */,
+				F1267D4E1B4EDA3300B7671E /* Photos */,
+				F1267D4B1B4EDA0C00B7671E /* Profile */,
+				F1267D4F1B4EDA3C00B7671E /* Timeline */,
+			);
+			name = Containers;
+			sourceTree = "<group>";
+		};
+		F1267D4A1B4EDA0300B7671E /* Biography */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D5D1B4EDAD800B7671E /* BiographyView.swift */,
+			);
+			name = Biography;
+			sourceTree = "<group>";
+		};
+		F1267D4B1B4EDA0C00B7671E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D5B1B4EDACB00B7671E /* ProfileView.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		F1267D4C1B4EDA1800B7671E /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				F10C32CD1B8E546200B879E0 /* FriendsView.swift */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
+		F1267D4E1B4EDA3300B7671E /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Photos;
+			sourceTree = "<group>";
+		};
+		F1267D4F1B4EDA3C00B7671E /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D551B4EDAB200B7671E /* SoldierLocation.swift */,
+				F1267D561B4EDAB200B7671E /* TimelineView.swift */,
+				F1267D571B4EDAB200B7671E /* VCMapView.swift */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		F1267D501B4EDA4700B7671E /* Medals */ = {
+			isa = PBXGroup;
+			children = (
+				F1267D531B4EDA9400B7671E /* Medals.swift */,
+			);
+			name = Medals;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1267D1E1B4EB27400B7671E /* Main.storyboard in Resources */,
+				F1A5743C1B8FD28E0025A7AF /* art.scnassets in Resources */,
 				F1267D231B4EB27400B7671E /* LaunchScreen.xib in Resources */,
 				F1267D201B4EB27400B7671E /* Images.xcassets in Resources */,
 			);
@@ -212,8 +341,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1267D1B1B4EB27400B7671E /* ViewController.swift in Sources */,
+				F1267D521B4EDA7500B7671E /* FaceBookViewController.swift in Sources */,
+				F1267D3E1B4EBD2900B7671E /* SearchViewController.swift in Sources */,
+				F1267D451B4EC15D00B7671E /* weaponDetailsViewController.swift in Sources */,
+				F1267D581B4EDAB200B7671E /* SoldierLocation.swift in Sources */,
+				F1267D1B1B4EB27400B7671E /* HomeViewController.swift in Sources */,
 				F1267D191B4EB27400B7671E /* AppDelegate.swift in Sources */,
+				F1267D471B4ED53A00B7671E /* FullSoldier.swift in Sources */,
+				F1267D5C1B4EDACB00B7671E /* ProfileView.swift in Sources */,
+				F1267D401B4EBD8300B7671E /* SwiftyJSON.swift in Sources */,
+				F10C32CE1B8E546200B879E0 /* FriendsView.swift in Sources */,
+				F1267D441B4EC15D00B7671E /* WeaponSelectViewController.swift in Sources */,
+				F1267D3C1B4EBD2900B7671E /* ResultSorter.swift in Sources */,
+				F1267D541B4EDA9400B7671E /* Medals.swift in Sources */,
+				F1267D3D1B4EBD2900B7671E /* ResultsViewController.swift in Sources */,
+				F1267D5A1B4EDAB200B7671E /* VCMapView.swift in Sources */,
+				F1267D5E1B4EDAD800B7671E /* BiographyView.swift in Sources */,
+				F1267D591B4EDAB200B7671E /* TimelineView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VimyRidgeMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +498,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = VimyRidgeMaster/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +557,7 @@
 				F1267D341B4EB27400B7671E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1267D351B4EB27400B7671E /* Build configuration list for PBXNativeTarget "VimyRidgeMasterTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +566,7 @@
 				F1267D371B4EB27400B7671E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
